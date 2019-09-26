@@ -1,0 +1,496 @@
+{
+  "SkillsPassport": {
+    "Locale": "sl",
+    "PrintingPreferences": {
+      "ECV": [
+        {
+          "name": "LearnerInfo",
+          "order": "Identification Headline Education WorkExperience Skills Achievement ReferenceTo",
+          "pageBreaks": "  Skills SkillsComputer"
+        },
+        {
+          "name": "LearnerInfo.Identification"
+        },
+        {
+          "name": "LearnerInfo.Identification.PersonName",
+          "show": true,
+          "order": "Surname FirstName"
+        },
+        {
+          "name": "LearnerInfo.Identification.Demographics"
+        },
+        {
+          "name": "LearnerInfo.Identification.Demographics.Birthdate",
+          "format": "numeric/medium"
+        },
+        {
+          "name": "LearnerInfo.WorkExperience"
+        },
+        {
+          "name": "LearnerInfo.WorkExperience"
+        },
+        {
+          "name": "LearnerInfo.WorkExperience[0]"
+        },
+        {
+          "name": "LearnerInfo.WorkExperience[0].Period",
+          "format": "text/short"
+        },
+        {
+          "name": "LearnerInfo.WorkExperience[1]"
+        },
+        {
+          "name": "LearnerInfo.WorkExperience[1].Period",
+          "format": "text/short"
+        },
+        {
+          "name": "LearnerInfo.Education"
+        },
+        {
+          "name": "LearnerInfo.Education"
+        },
+        {
+          "name": "LearnerInfo.Education[0]"
+        },
+        {
+          "name": "LearnerInfo.Education[0].Period",
+          "format": "text/short"
+        },
+        {
+          "name": "LearnerInfo.Education[1]"
+        },
+        {
+          "name": "LearnerInfo.Education[1].Period",
+          "format": "text/short"
+        },
+        {
+          "name": "LearnerInfo.Education[2]"
+        },
+        {
+          "name": "LearnerInfo.Education[2].Period",
+          "format": "text/short"
+        },
+        {
+          "name": "LearnerInfo.Education[3]"
+        },
+        {
+          "name": "LearnerInfo.Education[3].Period",
+          "format": "text/short"
+        },
+        {
+          "name": "LearnerInfo.Education[4]"
+        },
+        {
+          "name": "LearnerInfo.Education[4].Period",
+          "format": "text/short"
+        },
+        {
+          "name": "LearnerInfo.Education[5]"
+        },
+        {
+          "name": "LearnerInfo.Education[5].Period",
+          "format": "text/short"
+        },
+        {
+          "name": "LearnerInfo.Skills"
+        },
+        {
+          "name": "LearnerInfo.Skills.Linguistic"
+        },
+        {
+          "name": "LearnerInfo.Skills.Linguistic.ForeignLanguage"
+        },
+        {
+          "name": "LearnerInfo.Achievement"
+        }
+      ]
+    },
+    "DocumentInfo": {
+      "DocumentType": "ECV",
+      "CreationDate": "2018-04-17T10:05:54.131Z",
+      "LastUpdateDate": "2019-09-19T09:42:20.420Z",
+      "XSDVersion": "V3.3",
+      "Generator": "EWA",
+      "Comment": "Europass CV",
+      "EuropassLogo": true,
+      "Document": [
+        
+      ]
+    },
+    "LearnerInfo": {
+      "Identification": {
+        "PersonName": {
+          "FirstName": "Maruša",
+          "Surname": "Terzič"
+        },
+        "ContactInfo": {
+          "Address": {
+            "Contact": {
+              "AddressLine": "Ulica Eve Lovše, 6",
+              "PostalCode": "2000",
+              "Municipality": "Maribor",
+              "Country": {
+                "Label": "Slovenia"
+              }
+            }
+          },
+          "Telephone": [
+            {
+              "Use": {
+                "Code": "mobile",
+                "Label": "Prenosni telefon"
+              },
+              "Contact": "+38670212395"
+            }
+          ],
+          "Email": {
+            "Contact": "marusa.terzic@gmail.com"
+          },
+          "Website": [
+            {
+              "Contact": "www.linkedin.com/in/marusaterzic"
+            },
+            {
+              "Contact": "https://flic.kr/ps/3g28sf"
+            }
+          ]
+        }
+      },
+      "Headline": null,
+      "WorkExperience": [
+        {
+          "Period": {
+            "From": {
+              "Month": 3,
+              "Year": 2018
+            }
+          },
+          "Position": {
+            "Label": "Izdelava spletne strani"
+          },
+          "Employer": {
+            "Name": "P.IT.S - Poslovno IT svetovanje, d.o.o.",
+            "ContactInfo": {
+              "Address": {
+                "Contact": {
+                  "Municipality": "Maribor",
+                  "Country": {
+                    "Label": "Slovenija",
+                    "Code": "SI"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "Period": {
+            "From": {
+              "Month": 6,
+              "Year": 2014
+            },
+            "To": {
+              "Month": 7,
+              "Year": 2014
+            }
+          },
+          "Position": {
+            "Label": "Prostovoljno delo na tematskih delavnicah za otroke"
+          },
+          "Employer": {
+            "Name": "Zavod MARS Maribor, ART KAMP",
+            "ContactInfo": {
+              "Address": {
+                "Contact": {
+                  "Municipality": "Maribor",
+                  "Country": {
+                    "Label": "Slovenija",
+                    "Code": "SI"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "Education": [
+        {
+          "Period": {
+            "From": {
+              "Month": 10,
+              "Year": 2017
+            },
+            "Current": true
+          },
+          "Title": "Diplomirana inženirka medijskih komunikacij (UN)",
+          "Organisation": {
+            "Name": "Fakulteta za elektrotehniko, računalništvo in informatiko v Mariboru",
+            "ContactInfo": {
+              "Address": {
+                "Contact": {
+                  "Municipality": "Maribor",
+                  "Country": {
+                    "Label": "Slovenija",
+                    "Code": "SI"
+                  }
+                }
+              }
+            }
+          },
+          "Level": {
+            "Label": "Raven 6 EOK",
+            "Code": "6"
+          },
+          "Activities": "<p>&nbsp;</p><ul></ul>"
+        },
+        {
+          "Period": {
+            "From": {
+              "Month": 8,
+              "Year": 2018
+            }
+          },
+          "Title": "Board of European Students of Technology Course in Electrical Engineering",
+          "Organisation": {
+            "Name": "Universidade de Coimbra",
+            "ContactInfo": {
+              "Address": {
+                "Contact": {
+                  "Municipality": "Coimbra",
+                  "Country": {
+                    "Label": "Portugalska",
+                    "Code": "PT"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "Period": {
+            "From": {
+              "Month": 9,
+              "Year": 2013
+            },
+            "To": {
+              "Month": 7,
+              "Year": 2017
+            }
+          },
+          "Title": "Splošna Matura",
+          "Organisation": {
+            "Name": "ll. gimnazija Maribor",
+            "ContactInfo": {
+              "Address": {
+                "Contact": {
+                  "Municipality": "Maribor",
+                  "Country": {
+                    "Label": "Slovenija",
+                    "Code": "SI"
+                  }
+                }
+              }
+            }
+          },
+          "Level": {
+            "Label": "Raven 5 EOK",
+            "Code": "5"
+          }
+        },
+        {
+          "Period": {
+            "From": {
+              "Day": 4,
+              "Month": 7,
+              "Year": 2016
+            },
+            "To": {
+              "Day": 12,
+              "Month": 8,
+              "Year": 2016
+            }
+          },
+          "Title": "Intensivkurs Niveau A2.2, B2.2",
+          "Organisation": {
+            "Name": "Deutsch in Graz [Dig]",
+            "ContactInfo": {
+              "Address": {
+                "Contact": {
+                  "Municipality": "Graz",
+                  "Country": {
+                    "Label": "Nemčija",
+                    "Code": "DE"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "Period": {
+            "From": {
+              "Day": 9,
+              "Month": 9,
+              "Year": 2016
+            },
+            "To": {
+              "Day": 11,
+              "Month": 9,
+              "Year": 2016
+            }
+          },
+          "Title": "Mladinska šola retorike - nadaljevalni tečaj",
+          "Organisation": {
+            "Name": "Šola retorike, d.o.o.",
+            "ContactInfo": {
+              "Address": {
+                "Contact": {
+                  "Municipality": "Brezovica pri Ljubljani",
+                  "Country": {
+                    "Label": "Slovenija",
+                    "Code": "SI"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "Period": {
+            "From": {
+              "Day": 2,
+              "Month": 8,
+              "Year": 2015
+            },
+            "To": {
+              "Day": 22,
+              "Month": 8,
+              "Year": 2015
+            }
+          },
+          "Title": "Advanced course: Higher Skills Development",
+          "Organisation": {
+            "Name": "Churchill House School of English Language",
+            "ContactInfo": {
+              "Address": {
+                "Contact": {
+                  "Municipality": "Ramsgate",
+                  "Country": {
+                    "Label": "Združeno kraljestvo",
+                    "Code": "UK"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "Skills": {
+        "Linguistic": {
+          "MotherTongue": [
+            {
+              "Description": {
+                "Label": "slovenščina",
+                "Code": "sl"
+              }
+            }
+          ],
+          "ForeignLanguage": [
+            {
+              "Description": {
+                "Label": "angleščina",
+                "Code": "en"
+              },
+              "ProficiencyLevel": {
+                "Listening": "C2",
+                "Reading": "C2",
+                "SpokenInteraction": "C1",
+                "SpokenProduction": "C1",
+                "Writing": "C1"
+              },
+              "Certificate": [
+                {
+                  "Title": "IELTS (International English Language Testing System)",
+                  "AwardingBody": "British Council Slovenia",
+                  "Date": {
+                    "Day": 16,
+                    "Month": 2,
+                    "Year": 2017
+                  },
+                  "Level": "C1"
+                },
+                {
+                  "Title": "Slovenski certifikati Republiškega izobraževalnega centra (RIC)",
+                  "AwardingBody": "Državni izpitni center - RIC",
+                  "Date": {
+                    "Day": 27,
+                    "Month": 5,
+                    "Year": 2017
+                  },
+                  "Level": "B2"
+                }
+              ]
+            },
+            {
+              "Description": {
+                "Label": "nemščina",
+                "Code": "de"
+              },
+              "ProficiencyLevel": {
+                "Listening": "B1",
+                "Reading": "B1",
+                "SpokenInteraction": "A2",
+                "SpokenProduction": "A2",
+                "Writing": "A2"
+              },
+              "Certificate": [
+                {
+                  "Title": "Slovenski certifikati Republiškega izobraževalnega centra (RIC)",
+                  "AwardingBody": "Državni izpitni center - RIC",
+                  "Date": {
+                    "Day": 5,
+                    "Month": 6,
+                    "Year": 2017
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "Driving": {
+          "Description": [
+            "AM",
+            "B1",
+            "B",
+            "BE"
+          ]
+        },
+        "Computer": {
+          "ProficiencyLevel": {
+            "Information": "C",
+            "Communication": "C",
+            "ContentCreation": "C",
+            "Safety": "C",
+            "ProblemSolving": "C"
+          },
+          "Description": "<ul><li>znanje programskih orodij MS Office</li><li>znanje programskih orodij Adobe (Illustrator, Photoshop, Premiere)</li><li>znanje programskih jezikov html5, css, javascript, SQL</li><li>znanje programskega&nbsp;orodja&nbsp;za grafično 3D modeliranje in&nbsp;animiranje -&nbsp;Blender</li><li>znanje programskega&nbsp;paketa za računalni&scaron;ko podprto konstruiranje in inženirske analize - Solidworks</li><li>znanje programskih orodij za urejanje fotografij, avdio in video posnetkov&nbsp;</li></ul>"
+        },
+        "JobRelated": {
+          "Description": "<p><u><strong>Strokovni predmeti na univerzitetnem programu Medijske komunikacije, smer vizualna komunikacija:</strong></u></p><ul><li>Informatika (uporaba programskih orodij za razvoj spletnih predstavitev in za modeliranje sistemov,&nbsp;načrtovanje modelov informacijskih re&scaron;itev, znanje jezikov&nbsp;HTML5, CSS, Javascript)</li><li>Programiranje za medije (sposobnost razviti algoritme v obliki programske kode v izbranem programskem jeziku, razviti, implementirati in testirati aplikacije, Javascript)</li><li>Podatkovne baze (načrtovanje in inplementavija podatkovne baze, izvedba poizvedb, Accessm, SQL)</li><li>Arhitektura interaktivnih medijskih vsebin (CMS, Wordpress, Joomla)</li><li>Razvoj spletnih sistemov (uporaba orodij za kreiranje spletnih strani in njihovo povezovanje v spletni sistem,&nbsp;programiranje dinamičnih spletnih strani, priprava predstavitvenih vsebin za objavo na spletu, NetBeans, Bootstrap, MySQL)</li><li>Matematika</li></ul><p>&nbsp;</p><ul><li>Avdio in video tehnologija, tehnike produkcije</li><li>Osnove fotografije</li><li>Osnove geometrijskega modeliranja in računalni&scaron;ke grafike (Blender)</li><li>Računalni&scaron;ka animacija (izdelava 3D računalni&scaron;ke animacije)</li><li>Tipografija in alternativne tiskane oblike (oblikovanja tipografije in logotipa, uporaba programskih orodij za pripravo vizualnih sporočil za tisk)</li><li>Osnove vizualnega oblikovanja (načrtovanje in izvedba vizualnih sporočil)</li><li>Vizualna komunikacija (sposobnost opredeliti in razumeti različne fenomene vizualnega komuniciranja, analizirati podobe znotraj različnih vizualnih fenomenov, pretvoriti izbrane strategije marketinga in tržnega komuniciranja v uspe&scaron;ne kreativne re&scaron;itve na polju besedil in nato naprej v vizualno komuniciranje)</li></ul><p>&nbsp;</p><ul><li>Priprava medijskih vsebin</li><li>Kritično mi&scaron;ljenje in izražanje (sposobnost pisnega in ustnega argumentiranja in pravilnega izražanja, pisati osnovne oblike kritik)</li><li>Medijska etika (sposobnost&nbsp;artikulirati, klasificirati, osmisliti in ovrednotiti lastno izkustvo medijske realnosti, prepoznati moralne razsežnosti medijskih praks in ustanov, razumeti, utemeljiti in pravilno uporabljati moralna načela, oceniti argumente oz. evidenco v podporo različnim moralnim stali&scaron;čem, oblikovati zanesljive moralne sodbe in re&scaron;evati poklicne moralne dileme)</li></ul>"
+        }
+      },
+      "Achievement": [
+        {
+          "Title": {
+            "Label": "Konference",
+            "Code": "conferences"
+          },
+          "Description": "<ul><li>&nbsp;<strong>ABATHON HACKATHON 2016&nbsp;</strong>- Kreativni&nbsp;vikend, kjer smo v&nbsp;dnevu in pol kot ekipa &scaron;tirih razvili inovacijski predlog, ki je ob koncu dogodka <u>prejel drugo denarno nagrado</u>. Primarni cilj predloga je bil strankam Abanke izbolj&scaron;ati uporabni&scaron;ko izku&scaron;njo in predstaviti nove priložnosti za banko (možne z uvedbo PSD2).&nbsp;</li></ul><p>Organizator: Abanka d.d.</p><p>&nbsp;</p><ul><li><strong>TEN-T Days 2018</strong>, največja prireditev na področju evropske prometne povezljivosti. Inovacijske predloge smo predstavljali pred množico strokovnjakov in udeležencev konference v Gospodarskem razstavi&scaron;ču. Ker je &scaron;lo za evropski dogodek, so razvoj idej in predstavitve potekale v angle&scaron;kem jeziku.</li></ul><p>Organizator: European Commission</p><p>&nbsp;</p><ul><li><strong>Mobility Hackaton 2018</strong>,</li></ul><p>Organizator:&nbsp;Tovarna podjemov, podjetni&scaron;ki inkubator UM</p>"
+        }
+      ]
+    },
+    "CoverLetter": {
+      
+    }
+  }
+}
